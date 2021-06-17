@@ -1,6 +1,6 @@
 package hello.core.member;
 
-public class MemberImpl implements MemberService{
+public class MemberServiceImpl implements MemberService{
 
     MemberRepository memberRepository = new MemoryMemberRepository();
     @Override
